@@ -38,12 +38,12 @@ body{
 }
 @media (max-width: 992px){
     .carousel-caption h2 {
-        font-size: 234%;
+        font-size: 269%;
         text-transform: uppercase;
         text-shadow: 6px 6px 12px #000;
     }
     .carousel-caption h3 {
-        font-size: 123%;
+        font-size: 179%;
         text-shadow: 3px 3px 9px #000;
 }
     .btn-outline-light{
@@ -56,14 +56,14 @@ body{
             text-shadow: 4px 4px 12px #000;
         }}
 
-@media (max-width: 876px){
+@media (max-width: 786px){
     .carousel-caption h2 {
-        font-size: 123%;
+        font-size: 199%;
         text-transform: uppercase;
         text-shadow: 6px 6px 12px #000;
     }
     .carousel-caption h3 {
-        font-size: 101%;
+        font-size: 139%;
         text-shadow: 3px 3px 9px #000;
 }
 .btn-outline-light{
@@ -71,19 +71,19 @@ body{
     text-shadow: 1px 1px 20px #000;
     font-size: 76%;}
     .display-4{
-        font-size: 234%;
+        font-size: 246%;
         text-transform: uppercase;
         text-shadow: 4px 4px 12px #000;
     }
 }
 @media (max-width: 576px){
     .carousel-caption h2 {
-        font-size: 89%;
+        font-size: 149%;
         text-transform: uppercase;
         text-shadow: 6px 6px 12px #000;
     }
     .carousel-caption h3 {
-        font-size: 89%;
+        font-size: 103%;
         text-shadow: 3px 3px 9px #000;
 }
 .btn-outline-light{
