@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Playfair Display';
+    font-size: 17px;
+}
+body{
+    background-image: url(../images/bg2.jpg);
+    
+    /*background-color: black;*/
+}
+.navbar {
+    background-color:rgb(0,0,1,0.9)!important;
+    text-align: right;
+}
+.navbar li a:hover {
+    color: rgb(255, 231, 77) !important;
+}
+footer {
+    background-image: url(../images/conmuthu19.png);
+    color: white;
+}
+.hover {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 60%;
+  }
+  
+  .hover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    transition: all 0.4s;
+  }
+  
+  .hover img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 2.9s;
+ 
+  }
+
+  .hover-3::after {
+    content: '';
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    border: 1px solid #fff;
+    position: absolute;
+    top: 1.15rem;
+    left: 1rem;
+    z-index: 90;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    opacity: 0;
+    display: block;
+    opacity: 0;
+  }
+
+  .hover-3-noidung {
+    position: absolute;
+    top: 50.5%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 99;
+
+  }
+  
+
+  
+  .hover-3-trichdan {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+    font-size: 76%;
+  }
+  .hover-3-tieude {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.05s;
+    font-size: 150%;
+
+  }
+  .btn {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+    font-size: 150%;
+    
+  }
+  .hover-3 img {
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hover-3 .hover-overlay {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .hover-3:hover img {
+    width: 100%;
+  }
+  
+  .hover-3:hover::after {
+    opacity: 1;
+    transform: none;
+  }
+  .hover-3:hover .hover-3-tieude {
+    opacity: 0;
+    transform: none;
+    
+  }
+  .hover-3:hover .btn {
+    opacity: 1;
+    transform: none;
+  }
+  .hover-3:hover .hover-3-trichdan {
+    opacity: 1;
+    transform: none;
+  }
+  
+  .hover-3:hover .hover-overlay {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .col-md-6 {
+      margin-top: 25px;
+  }
+
+
+
+
+@media (max-width: 991px){
+  .hover-3-trichdan {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+    font-size: 124%;
+  }
+  .hover-3-tieude {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.05s;
+    font-size: 200%;
+
+  }
+  .btn {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+    font-size: 200%;
+    
+  }
+}
+@media (max-width: 800px){
+  .hover-3-trichdan {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+    font-size: 117%;
+  }
+  .hover-3-tieude {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.05s;
+    font-size: 180%;
+
+  }
+  .btn {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+    font-size: 180%;
+    
+  }
+}
+@media (max-width: 768px){
+  .hover-3-trichdan {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+    font-size: 84%;
+  }
+  .hover-3-tieude {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.05s;
+    font-size: 150%;
+
+  }
+  .btn {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+    font-size: 150%;
+    
+  }
+} 
+@media (max-width: 600px){
+  .hover-3-trichdan {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+    font-size: 71%;
+    font-weight: 600 !important;
+  }
+  .hover-3-tieude {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.05s;
+    font-size: 125%;
+
+  }
+  .btn {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+    font-size: 125%;
+    
+  }
+}
+@media (max-width: 480px){
+  .hover-3-trichdan {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+    font-size: 65%;
+    font-weight: 600 !important;
+  }
+  .hover-3-tieude {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.05s;
+    font-size: 99%;
+
+  }
+  .btn {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+    font-size: 99%;
+    
+  }
+} 
+@media (max-width: 390px){
+  .hover-3-trichdan {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+    font-size: 56%;
+    font-weight: 600 !important;
+  }
+  .hover-3-tieude {
+    opacity: 1;
+    transform: scale(1.3);
+    transition: all 0.05s;
+    font-size: 80%;
+
+  }
+  .btn {
+    z-index: 2;
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all;
+    font-size: 80%;
+    
+  }
+} 
