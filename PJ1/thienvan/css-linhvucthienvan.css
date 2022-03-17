@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 html, body {
@@ -123,13 +124,13 @@ footer {
     .btn-outline-light{
       text-transform: uppercase;
       text-shadow: 1px 1px 20px #000;
-      font-size: 49%;
+      font-size: 35%;
       }
       .readmore {
         transition: .6s ease;
         opacity: 0;
         position: absolute;
-        top: 30%;
+        top: 26%;
         left: 50%;
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
